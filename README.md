@@ -28,4 +28,4 @@ __Voici ci-dessous la marche à suivre__
 - Se connecter avec mysql `sudo mysql`
 - Créez votre compte utilisateur `CREATE USER 'VOTRE_NOM'@'localhost' IDENTIFIED BY 'VOTRE_MOT_DE_PASSE';`
 - Donnez lui les permissions `GRANT ALL PRIVILEGES ON *.* TO 'VOTRE_NOM'@'localhost' IDENTIFIED BY 'VOTRE_MOT_DE_PASSE'`
-5. Effectuer un `mysql -u VOTRE_NOM -p` devrait fonctionner# wcs-ubuntu-install
+5. Effectuer un `mysql -u VOTRE_NOM -p` devrait fonctionner
