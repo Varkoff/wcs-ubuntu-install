@@ -2,12 +2,12 @@ Ayant réinstallé Ubuntu plusieurs fois durant la formation, j'ai décidé de l
 
 __Voici ci-dessous la marche à suivre__
 
-#Installer les dépendances PHP
+# Installer les dépendances PHP
 1. `sudo apt install php php-xml php-cgi php-cli php-curl curl wget mysql-server composer git php-mysql`
 2. `sudo apt full-upgrade && apt autoremove`
 3. Installer phpstorm, googlechrome, visualstudiocode, discord, slack ...
 
-#Installer le thème "starship"
+# Installer le thème "starship"
 1. sudo apt install zsh
 2. Lancer ZSH avec la commande `zsh`
 3. Appuyer sur `2` pour les paramètres par défaut de zsh
@@ -20,7 +20,7 @@ __Voici ci-dessous la marche à suivre__
 10. Enregistrer
 11. Relancer le terminal
 
-#Installer Mysql
+# Installer Mysql
 1. Lancer la commande `sudo mysql_secure_installation utility`
 2. Suivez les instructions du terminal
 3. Sur certaines versions comme la 18.04, je n'arrivais pas à me connecter avec la commande `mysql -u root -p`
