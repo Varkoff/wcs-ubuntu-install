@@ -8,6 +8,7 @@ __Voici ci-dessous la marche à suivre__
 3. Installer phpstorm, googlechrome, visualstudiocode, discord, slack ...
 
 # Installer le thème "starship"
+![](https://raw.githubusercontent.com/starship/starship/master/media/demo.gif)
 1. sudo apt install zsh
 2. Lancer ZSH avec la commande `zsh`
 3. Appuyer sur `2` pour les paramètres par défaut de zsh
