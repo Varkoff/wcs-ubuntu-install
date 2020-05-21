@@ -51,3 +51,6 @@ __Voici ci-dessous la marche à suivre__
 > `sudo a2ensite DOMAIN.config`
 > `sudo ae2dissite DOMAIN`
 > `sudo systemctl reload apache2 && sudo systemctl restart apache2`
+
+# Installer Certbot pour les certificats SSL
+1. https://certbot.eff.org/lets-encrypt/ubuntubionic-apache
