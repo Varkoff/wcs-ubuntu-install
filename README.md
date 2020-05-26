@@ -32,7 +32,8 @@ __Voici ci-dessous la marche à suivre__
 4. J'ai du recréer un utilisateur et lui donner les privilèges d'administration
 - Se connecter avec mysql `sudo mysql`
 - Créez votre compte utilisateur `CREATE USER 'USERNAME'@'localhost' IDENTIFIED BY 'PASSWORD';`
-- Donnez lui les permissions `GRANT ALL PRIVILEGES ON *.* TO 'USERNAME'@'localhost'`
+- Donnez lui les permissions à toutes les bases `GRANT ALL PRIVILEGES ON *.* TO 'USERNAME'@'localhost'`
+- Où seulement les permissions à une seule base `GRANT ALL PRIVILEGES ON DB_NAME.* TO 'USERNAME'@'localhost'`
 5. Effectuer un `mysql -u USERNAME -p` devrait fonctionner
 
 # Créer un utilisateur Sudo
