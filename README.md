@@ -1,14 +1,5 @@
 Pour installer PHP et démarrer un serveur sous Ubuntu, consultez le [wiki](https://github.com/Varkoff/wcs-ubuntu-install/wiki#installer-php-72) !
 
-# Installer les dépendances PHP
-1. `sudo apt update && sudo apt upgrade'`
-2. `sudo apt install php php-xml php-cgi php-cli php-curl curl wget mysql-server composer git php-mysql`
-3. `sudo apt full-upgrade && sudo apt autoremove`
-4. Installer phpstorm, googlechrome, visualstudiocode, discord, slack ...
-# Pour lancer un hébergement web, il faut également installer
-5. `sudo apt install apache2 php libapache2-mod-php mysql-server php-mysql`
-6. `sudo apt install php-curl php-gd php-intl php-json php-mbstring php-xml php-zip`
-
 # Installer le thème "starship"
 ![](https://raw.githubusercontent.com/starship/starship/master/media/demo.gif)
 1. sudo apt install zsh
