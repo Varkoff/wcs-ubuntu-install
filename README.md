@@ -1,18 +1,8 @@
 Pour installer PHP et démarrer un serveur sous Ubuntu, consultez le [wiki](https://github.com/Varkoff/wcs-ubuntu-install/wiki#installer-php-72) !
 
-# Installer le thème "starship"
+# Installation du thème "starship"
 ![](https://raw.githubusercontent.com/starship/starship/master/media/demo.gif)
-1. sudo apt install zsh
-2. Lancer ZSH avec la commande `zsh`
-3. Appuyer sur `2` pour les paramètres par défaut de zsh
-4. Ecrire `chsh` pour mettre zsh en paramètre par défaut
-5. Redémarrer Ubuntu
-6. Télécharger les polices du terminal avec `sudo apt-get install fonts-powerline`
-7. Télécharger le thème avec `curl -fsSL https://starship.rs/install.sh | bash`
-8. Ouvrir le fichier de config de ZSH `~./.zshrc` avec la commande `sudo gedit ~/.zshrc`
-9. Ajouter les lignes `eval "$(starship init bash)"` à la fin du fichier
-10. Enregistrer
-11. Relancer le terminal
+[Consultez le wiki](https://github.com/Varkoff/wcs-ubuntu-install/wiki/Installer-le-th%C3%A8me-Starship-%C3%A0-votre-invit%C3%A9-de-commande)
 
 # Installer Mysql
 1. Lancer la commande `sudo mysql_secure_installation utility`
