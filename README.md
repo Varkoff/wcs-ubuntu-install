@@ -1,6 +1,4 @@
-Ayant réinstallé Ubuntu plusieurs fois durant la formation, j'ai décidé de lister la plupart des dépendances et des librairies.
-
-__Voici ci-dessous la marche à suivre__
+Pour installer PHP et démarrer un serveur sous Ubuntu, consultez le [wiki](https://github.com/Varkoff/wcs-ubuntu-install/wiki#installer-php-72) !
 
 # Installer les dépendances PHP
 1. `sudo apt update && sudo apt upgrade'`
